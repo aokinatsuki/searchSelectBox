@@ -1,0 +1,38 @@
+/*検索付きプルダウン選択中*/
+[class$='_search_select_focus'] {
+    width: 100%;
+    background: rgba(158, 181, 230, 0.507);
+}
+/*検索付きプルダウン親div*/
+.search_select_parent {
+    position: relative;
+}
+/*検索付きプルダウン中身のul*/
+.search_select_box {
+    white-space: normal;
+    background: #FFF;
+    color: #575752;
+    overflow-y: scroll;
+    height: 100px;
+    border: 1px solid #9b9b9b;
+    position: absolute;
+    z-index:9999;
+    padding:0;
+}
+/*検索入力input*/
+.search_select_input {
+    width: 100%;
+    position: relative;
+    top:0;
+    z-index:9999;
+    padding: 0.15rem 0.5rem !important;
+}
+/*検索付きプルダウン中身のli*/
+.search_select_not_text,
+.search_select_content_active {
+    color: #575752;
+    line-height: 1.5;
+    padding: 0.15rem 0.5rem;
+    cursor: default;
+    width: 100%;
+}
